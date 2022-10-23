@@ -11,13 +11,13 @@ function Verificar() {
 
     if(inputVerificar_f == 'b890'){
         main.style.display = 'flex'
-        div.style.display = 'flex'
+        div.style.display = 'block'
         header.style.display = 'flex'
         container_seguranca.style.display = 'none'
     }else{
+        inputVerificar.value = ""
         alert('Blocked')
     }
-
 }
 
 
