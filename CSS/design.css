@@ -123,7 +123,7 @@ header img {
 }
 
 hr {
-    width: 100%;
+    width: 90%;
     margin: 2px 0px 2px 25px;
     background: linear-gradient(to left, rgb(255, 152, 240), rgb(41, 165, 255));
     height: 4px;
