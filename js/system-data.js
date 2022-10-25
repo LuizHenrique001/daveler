@@ -94,3 +94,4 @@ faturamentoMensalDaveler()
 let vendasPedido = 0
 vendasPedido = dadosDaveler.length
 vendas.innerHTML = vendasPedido
+

@@ -6,6 +6,7 @@ function Verificar() {
     let inputVerificar_f = inputVerificar.value
     let main = document.querySelector('main.container_main')
     let div = document.querySelector('div.container_vendas')
+    let footer = document.querySelector('footer')
     let container_seguranca = document.querySelector('div.container_seguranca')
     let header = document.querySelector('header')
 
@@ -13,6 +14,7 @@ function Verificar() {
         main.style.display = 'flex'
         div.style.display = 'block'
         header.style.display = 'flex'
+        footer.style.display = 'flex'
         container_seguranca.style.display = 'none'
     }else{
         inputVerificar.value = ""

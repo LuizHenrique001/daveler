@@ -19,12 +19,12 @@ header {
     display: none;
     align-items: center;
     width: 100%;
-    height: 60px;
+    height: 70px;
     background-color: black;
 }
 
 header img {
-    width: 160px;
+    width: 150px;
 }
 
 /* Main do Site */
@@ -34,6 +34,7 @@ header img {
     width: 100%;
     height: 300px;
     background-color: rgb(33, 40, 50);
+    margin-bottom: 20px;
 }
 
 .container_informacoes {
@@ -48,6 +49,7 @@ header img {
     margin: 15px 0px 12px 15px;
     display: flex;
     align-items: center;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.434);
 }
 
 .nome_descricao {
@@ -70,7 +72,7 @@ header img {
 .container_vendas {
     display: none;
     width: 100%;
-    height: 800px;
+    height: 100%;
     justify-content: center;
     align-items: center;
     background-color: rgb(240, 240, 240);
@@ -113,7 +115,7 @@ header img {
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-weight: bold;
-    padding: 5px 0px 5px 25px;
+    padding: 5px 0px 5px 20px;
 }
 
 .info_div_top {
@@ -126,7 +128,7 @@ header img {
 
 hr {
     width: 90%;
-    margin: 2px 0px 2px 25px;
+    margin: 2px 0px 2px 20px;
     background: linear-gradient(to left, rgb(255, 152, 240), rgb(41, 165, 255));
     height: 4px;
     border: 0px solid black;
@@ -186,4 +188,24 @@ hr {
 .container_seguranca img {
     width: 130px;
     padding: 20px 0px 10px 20px;
+}
+
+
+/* Footer do Site */
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+footer p {
+    text-align: center;
+    color: var(--color2);
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0px;
 }
